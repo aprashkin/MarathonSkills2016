@@ -65,3 +65,4 @@ C:\Users\kristy\source\repos\MarathonSkills2016\MarathonSkills2016\obj\Debug\net
 C:\Users\kristy\source\repos\MarathonSkills2016\MarathonSkills2016\obj\Debug\net8.0\Marathon.C90DF3A1.Up2Date
 C:\Users\kristy\source\repos\MarathonSkills2016\MarathonSkills2016\obj\Debug\net8.0\MarathonSkills2016.genruntimeconfig.cache
 C:\Users\kristy\source\repos\MarathonSkills2016\MarathonSkills2016\obj\Debug\net8.0\ref\MarathonSkills2016.dll
+C:\Users\kristy\source\repos\MarathonSkills2016\MarathonSkills2016\obj\Debug\net8.0\MarathonSkills2016.sourcelink.json

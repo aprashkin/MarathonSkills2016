@@ -3,31 +3,33 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		Width="800" Height="450"
+		WindowStartupLocation="CenterScreen"
         x:Class="MarathonSkills2016.SponsorPage"
         Title="SponsorPage">
 	<Grid>
 		<StackPanel Margin="20">
-			<!-- Çàãîëîâîê -->
-			<TextBlock Text="Ñïîíñîð áåãóíà" FontSize="20" Margin="0 0 0 20"/>
+			
+			<TextBlock Text="Ð¡Ð¿Ð¾Ð½ÑÐ¾Ñ€ Ð±ÐµÐ³ÑƒÐ½Ð°" FontSize="20" Margin="0 0 0 20"/>
 
-			<!-- Èíôîðìàöèÿ -->
-			<TextBlock Text="Ïîæàëóéñòà, âûáåðèòå áåãóíà, êîòîðîãî âû õîòåëè áû ñïîíñèðîâàòü è ñóììó, êîòîðóþ âû õîòåëè áû ñïîíñèðîâàòü. Ñïàñèáî çà âàøó ïîääåðæêó áåãóíîâ è èõ áëàãîòâîðèòåëüíûõ ó÷ðåæäåíèé." Margin="0 0 0 20"/>
+			
+			<TextBlock TextWrapping="Wrap" Text="ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð²Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð±ÐµÐ³ÑƒÐ½Ð°, ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ð²Ñ‹ Ñ…Ð¾Ñ‚ÐµÐ»Ð¸ Ð±Ñ‹ ÑÐ¿Ð¾Ð½ÑÐ¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¸ ÑÑƒÐ¼Ð¼Ñƒ, ÐºÐ¾Ñ‚Ð¾Ñ€ÑƒÑŽ Ð²Ñ‹ Ñ…Ð¾Ñ‚ÐµÐ»Ð¸ Ð±Ñ‹ ÑÐ¿Ð¾Ð½ÑÐ¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ. Ð¡Ð¿Ð°ÑÐ¸Ð±Ð¾ Ð·Ð° Ð²Ð°ÑˆÑƒ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÑƒ Ð±ÐµÐ³ÑƒÐ½Ð¾Ð² Ð¸ Ð¸Ñ… Ð±Ð»Ð°Ð³Ð¾Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ñ… ÑƒÑ‡Ñ€ÐµÐ¶Ð´ÐµÐ½Ð¸Ð¹." Margin="0 0 0 20"/>
 
-			<!-- Èíôîðìàöèÿ î ñïîíñîðå -->
+			
 			<StackPanel Orientation="Horizontal" Margin="0 0 0 10">
 				<StackPanel>
-					<TextBlock Text="Âàøå èìÿ:" Margin="0 0 0 5"/>
-					<TextBlock Text="Áåãóí:" Margin="0 0 0 5"/>
-					<TextBlock Text="Êàðòà:" Margin="0 0 0 5"/>
-					<TextBlock Text="Íîìåð êàðòû:" Margin="0 0 0 5"/>
-					<TextBlock Text="Ñðîê äåéñòâèÿ:" Margin="0 0 0 5"/>
+					<TextBlock Text="Ð’Ð°ÑˆÐµ Ð¸Ð¼Ñ:" Margin="0 0 0 5"/>
+					<TextBlock Text="Ð‘ÐµÐ³ÑƒÐ½:" Margin="0 0 0 5"/>
+					<TextBlock Text="ÐšÐ°Ñ€Ñ‚Ð°:" Margin="0 0 0 5"/>
+					<TextBlock Text="ÐÐ¾Ð¼ÐµÑ€ ÐºÐ°Ñ€Ñ‚Ñ‹:" Margin="0 0 0 5"/>
+					<TextBlock Text="Ð¡Ñ€Ð¾Ðº Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ:" Margin="0 0 0 5"/>
 					<TextBlock Text="CVC:" Margin="0 0 0 5"/>
 				</StackPanel>
 				<StackPanel Margin="10 0 0 0">
-					<TextBox Width="200" Watermark="Âàøå èìÿ"/>
-					<ComboBox Width="200" PlaceholderText="Âûáåðèòå áåãóíà"/>
-					<TextBox Width="200" Watermark="Ââåäèòå äàííûå êàðòû"/>
-					<TextBox Width="200" Watermark="1234 1234 1234 1234"/>
+					<TextBox Width="200" Watermark="Ð’Ð°ÑˆÐµ Ð¸Ð¼Ñ"/>
+					<ComboBox Width="200" PlaceholderText="Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð±ÐµÐ³ÑƒÐ½Ð°"/>
+					<TextBox Width="200" Watermark="Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ ÐºÐ°Ñ€Ñ‚Ñ‹"/>
+					<TextBox Width="200" Watermark="1234 5678 9012 3456"/>
 					<StackPanel Orientation="Horizontal">
 						<TextBox Width="50" Watermark="MM"/>
 						<TextBox Width="70" Margin="10 0 0 0" Watermark="YYYY"/>
@@ -36,27 +38,27 @@
 				</StackPanel>
 			</StackPanel>
 
-			<!-- Áëàãîòâîðèòåëüíîñòü -->
+			
 			<StackPanel Orientation="Horizontal" Margin="0 20 0 0">
-				<TextBlock Text="Áëàãîòâîðèòåëüíîñòü" VerticalAlignment="Center"/>
-				<TextBlock Text="Ôîíä Êîøåê" Margin="10 0 0 0" VerticalAlignment="Center"/>
+				<TextBlock Text="Ð‘Ð»Ð°Ð³Ð¾Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚ÑŒ" VerticalAlignment="Center"/>
+				<TextBlock Text="Ð¤Ð¾Ð½Ð´ ÐšÐ¾ÑˆÐµÐº" Margin="10 0 0 0" VerticalAlignment="Center"/>
 				<Button Content="?" Margin="10 0 0 0"/>
 			</StackPanel>
 
-			<!-- Ñóììà ïîæåðòâîâàíèÿ -->
+
 			<StackPanel Orientation="Horizontal" Margin="0 20 0 0">
-				<TextBlock Text="Ñóììà ïîæåðòâîâàíèÿ" VerticalAlignment="Center"/>
-				<TextBox Width="100" Margin="10 0 0 0" Text="$50"/>
+				<TextBlock Text="Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ð¾Ð¶ÐµÑ€Ñ‚Ð²Ð¾Ð²Ð°Ð½Ð¸Ñ" VerticalAlignment="Center"/>
+				<TextBox x:Name="DonationAmountTextBox" Width="100" Margin="10 0 0 0" Text="$50"/>
 				<StackPanel Orientation="Horizontal" Margin="10 0 0 0">
-					<Button Content="-"/>
-					<Button Content="+" Margin="10 0 0 0"/>
+					<Button x:Name="DecreaseButton" Content="-" Click="Button_Click"/>
+					<Button x:Name="IncreaseButton" Content="+" Margin="10 0 0 0" Click="Button_Click_1"/>
 				</StackPanel>
 			</StackPanel>
 
-			<!-- Êíîïêè -->
+			
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20 0 0 0">
-				<Button Content="Çàïëàòèòü" Margin="0 0 10 0"/>
-				<Button Content="Îòìåíà"/>
+				<Button Content="Ð—Ð°Ð¿Ð»Ð°Ñ‚Ð¸Ñ‚ÑŒ" Background="WhiteSmoke" Margin="0 0 10 0"/>
+				<Button Content="ÐžÑ‚Ð¼ÐµÐ½Ð°" Background="WhiteSmoke" Click="BackToMain"/>
 			</StackPanel>
 		</StackPanel>
 	</Grid>

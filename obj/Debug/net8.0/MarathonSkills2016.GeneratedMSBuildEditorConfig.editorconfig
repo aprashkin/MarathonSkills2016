@@ -19,6 +19,9 @@ build_property.ProjectDir = C:\Users\kristy\source\repos\MarathonSkills2016\Mara
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/kristy/source/repos/MarathonSkills2016/MarathonSkills2016/AboutWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/kristy/source/repos/MarathonSkills2016/MarathonSkills2016/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
